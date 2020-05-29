@@ -22,8 +22,57 @@ body {
   width: 624px;
   padding: 32px;
   font-family: Arial;
+}
+.card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card__picture {
+  margin-right: 32px;
+}
+
+.card__header {
+  margin-bottom: 24px;
+}
+
+.card__header__name {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.card__header__position {
+  margin: 0;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #545454;
+}
+
+.card__article__description {
+  margin: 0;
+}
+
+.card__article {
+  font-family: Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
+}
+
+.card__article__description {
+  margin-bottom: 22px;
+}
+
+.card__link {
+  color: #e20613;
+  text-decoration: none;
+}
+.special {
+  color: #ed6d05;
 }
